@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+body{
+    /* background-image: url(/img/Bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 800px; */
+    font-family: "Poppins", sans-serif;
+}
+a{ 
+    text-decoration: none;
+    color: inherit;
+}
+li{
+    list-style-type:none;
+   }
+.header{
+    margin-bottom: 16px;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+.container{
+    max-width: 1248px;
+    margin: 0 auto; 
+    }
+.menuUp{
+    display: flex;
+    padding-left: 96px;
+    padding-top: 7px;
+    background: #EFF0F7;
+    min-height: 32px;
+}
+.menuUpRight{
+    display: flex;
+    gap: 5px;
+}
+.menuUpLeft{
+    display: flex;
+    gap: 28px;
+    margin-right: 780px;
+}
+.menuUpItem{
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+    font-weight: 400;
+}
+.menu{
+    position:relative;
+    display: flex;
+    gap: 32px;
+    margin-right: 645px;
+    max-width: 542px;
+    padding: 15px 31px 15px 96px;
+    background-image: url(img/logoNike.svg);
+    background-repeat: no-repeat;
+}
+.menuItem{
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    font-weight: 500;
+}
+.header .container{
+    align-items: center;
+    display: flex;
+    margin-bottom: 16px;
+}
+.menuRight{
+    display: flex;
+    gap: 20px;
+}
+.sale{
+    width: 35px;
+    position: absolute;
+    background-image: url(img/promo-label.svg);
+    background-repeat: no-repeat;
+    right: 90px;
+    top: 0px;
+}
+.hero .container{
+    margin-bottom: 96px;
+    background: #F6F6F6;
+    border-radius: 12px;
+    background-image: url(img/MaskGroup.png);
+    background-repeat: no-repeat;
+    background-position: -230px;
+    background-size: 120%;
+}
+.heroGallery{
+    display: flex;
+    gap: 8px;
+    padding: 28px 0 0 28px;
+    margin-bottom: 42px;
+}
+.heroGalleryShoes{
+    margin-bottom: 10px;
+}
+.heroProduct{
+    display: flex;
+    gap: 14px;
+}
+.heroProductLeft{
+    justify-content: flex-end;
+}
+.heroGalleryShoesEdition{
+    margin-bottom: 24px;
+    padding-left: 338px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+.viewProduct{
+    padding-left: 373px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+.containerTitle{
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 84px;
+    letter-spacing: -0.04em;
+    color: #000000;
+    text-align: center;
+
+}
+.containerText{
+    margin-bottom: 61px;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.02em;
+    color: #959799;
+    font-weight: 400;
+    text-align: center;
+}
+.justDoItList{
+    display: flex;
+    gap: 24px;
+}
+.justDoItItem{
+    border-radius: 8px;
+}
+.justDoIt .container{
+    margin-bottom: 96px;
+}
+.featured .container{
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-bottom: 135px;
+}
+.featuredItem{
+    margin-bottom: 8px;
+}
+.popularPicksItList{
+    display: flex;
+    gap: 24px;
+}
+.popularPicks .containerTitle{
+    text-align:left;
+}
+.popularPicks .containerText{
+    text-align:left;
+}
+.popularPicks{
+    margin-bottom: 119px;
+}
+.rewardingDaysLeft{
+    max-width: 472px;
+}
+.rewardingDays .containerTitle{
+    text-align:left;
+}
+.rewardingDays .containerText{
+    text-align:left;
+    margin-bottom: 24px;
+}
+.rewardingDaysBtn{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    padding: 12px 36px;
+    border-radius: 4px;
+    background: #000000;
+}
+.rewardingDaysRight{
+    width: 546px;
+    height: 574px;
+    background-image: url(img/rewardingDaysImg.jpg);
+    background-repeat: no-repeat;
+    background-position: 30px;
+}
+.rewardingDays .container{
+    display: flex;
+    gap: 226px;
+    margin-bottom: 116px;
+}
+.footer{
+    margin: 0 auto;
+    max-width: 1440px;
+    background-color: #000000;
+}
+.footerLeft{
+    display: flex;
+    gap: 72px;
+}
+.footer .container{
+    display: flex;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    gap: 505px;
+}
+.footerLeftList{
+    width: 150px;
+}
+.footerLeftItem{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.footerLeftItemTitle{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.footerRightText{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    /* width: 181px; */
+}
+.socialLinksList{
+    display: flex;
+    gap: 12px;
+}
+.copyright{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.bold{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+.footerRight{
+    width: 250px;
+}
+.socialLinksList{
+    justify-content: end;
+}
+.footerRightInfo{
+text-align: right;
+margin-bottom: 24px;
+}
